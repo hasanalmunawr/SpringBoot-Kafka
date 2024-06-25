@@ -12,7 +12,7 @@ kafka-console-consumer.sh  --bootstrap-server localhost:9092 --topic paymnet --g
 
 
 # EXERCISE
-# Silahkan coba jalankan lebih dari satu Consumer dengan Consumer Group sama,
-# dan kirim Message ke topic tersebut. Pastikan hanya satu Consumer yang mendapatkan data
-# Coba matikan Consumer yang sebelumnya menerima data, lalu coba kirim lagi data baru.
-# Pastikan Consumer lainnya secara otomatis mendapatkan data baru tersebut
+# Go trying to run more than one Consumer with the same Consumer Group,
+# and send a Message to the topic. Make sure only one Consumer gets the data
+# Try turning off the Consumer that previously received data, then try sending new data again.
+# Make sure the other Consumer automatically gets the new data
